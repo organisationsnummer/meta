@@ -38,6 +38,16 @@ class Organisationsnummer {
 }
 ```
 
+### Parse
+
+The package should include a `parse` method or a static method that creates a new instance of the new class.
+
+```js
+organisationsnummer.parse(string) => new class instance
+```
+
+The class should contain a static `parse` method that returns the class instance.
+
 ### Format
 
 Output for short `format` method
@@ -67,6 +77,10 @@ All methods except for `valid` should throw an exception or return an error as a
 ```js
 interface Organisationsnummer {
     public function __construct(string input);
+    
+    // static method or functional export, see parse spec.
+    public static function parse(string input);
+    
     public function format(boolean longFormat) : string;
     public function getType() : string;
 }
@@ -80,6 +94,7 @@ function valid(string input) {
     }
 }
 
+// static method or functional export, see parse spec.
 function parse(string input) {
     return new Organisationsnummer(input)
 }
