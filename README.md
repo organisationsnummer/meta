@@ -81,7 +81,7 @@ interface Organisationsnummer {
     // static method or functional export, see parse spec.
     public static function parse(string input);
     
-    public function format(boolean longFormat) : string;
+    public function format(boolean separator = true) : string;
     public function getType() : string;
 }
 
