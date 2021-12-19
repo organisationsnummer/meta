@@ -43,7 +43,6 @@ class Organisationsnummer {
 Output for short `format` method
 
 ```
-YYMMDD-XXXX
 NNNNNN-NNNN
 ```
 
