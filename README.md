@@ -82,7 +82,9 @@ interface Organisationsnummer {
     public static function parse(string input);
     
     public function format(boolean separator = true) : string;
-    public function getType() : string;
+    public function isPersonnummer(): boolean;
+    public function personnummer(): Personnummer;
+    public function type() : string;
 }
 
 function valid(string input) {
