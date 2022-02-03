@@ -5,7 +5,8 @@ Organization meta
 ## Implementations
 
 | Package | Pkg Version | Spec Version | Status | Maintainer |
-| ------- | ----------- | ------------ | ------ | ---------- |
+|---|---|---|---|---|
+| [JavaScript](https://github.com/organisationsnummer/js) | [![GitHub release (latest by date)](https://img.shields.io/github/v/release/organisationsnummer/js?style=flat-square)](https://github.com/organisationsnummer/js) | [1.0](https://github.com/personnummer/meta/#package-specification-v1) | [![GitHub Workflow Status](https://img.shields.io/github/workflow/status/organisationsnummer/js/build?style=flat-square)](https://github.com/personnummer/js/actions) | [@frozzare](https://github.com/frozzare)
 
 ## License Specification
 
@@ -77,10 +78,10 @@ All methods except for `valid` should throw an exception or return an error as a
 ```js
 interface Organisationsnummer {
     public function __construct(string input);
-    
+
     // static method or functional export, see parse spec.
     public static function parse(string input);
-    
+
     public function format(boolean separator = true) : string;
     public function isPersonnummer(): boolean;
     public function personnummer(): Personnummer | null;
