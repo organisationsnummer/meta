@@ -102,3 +102,16 @@ function parse(string input) {
     return new Organisationsnummer(input)
 }
 ```
+
+## Package Specification (v1.1)
+
+This specification adds new features and includes all parts from 2.0.
+
+The package should include `vatNumber` method that should return the vat number for a organization number.
+
+### Pseudo-interface
+
+```
+interface Organisationsnummer {
+    function vatNumber(): string
+}
