@@ -6,7 +6,7 @@ Organization meta
 
 | Package | Pkg Version | Spec Version | Status | Maintainer |
 |---|---|---|---|---|
-| [JavaScript](https://github.com/organisationsnummer/js) | [![GitHub release (latest by date)](https://img.shields.io/github/v/release/organisationsnummer/js?style=flat-square)](https://github.com/organisationsnummer/js) | [1.0](https://github.com/personnummer/meta/#package-specification-v1) | [![GitHub Workflow Status](https://img.shields.io/github/workflow/status/organisationsnummer/js/build?style=flat-square)](https://github.com/personnummer/js/actions) | [@frozzare](https://github.com/frozzare)
+| [JavaScript](https://github.com/organisationsnummer/js) | [![GitHub release (latest by date)](https://img.shields.io/github/v/release/organisationsnummer/js?style=flat-square)](https://github.com/organisationsnummer/js) | [1.1](https://github.com/personnummer/meta/#package-specification-v11) | [![GitHub Workflow Status](https://img.shields.io/github/workflow/status/organisationsnummer/js/build?style=flat-square)](https://github.com/personnummer/js/actions) | [@frozzare](https://github.com/frozzare)
 
 ## License Specification
 
