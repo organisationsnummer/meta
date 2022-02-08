@@ -105,7 +105,7 @@ function parse(string input) {
 
 ## Package Specification (v1.1)
 
-This specification adds new features and includes all parts from 2.0.
+This specification adds new features and includes all parts from 1.0.
 
 The package should include `vatNumber` method that should return the vat number for a organization number.
 
