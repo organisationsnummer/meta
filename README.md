@@ -111,7 +111,7 @@ The package should include `vatNumber` method that should return the vat number 
 
 ### Pseudo-interface
 
-```
+```js
 interface Organisationsnummer {
     function vatNumber(): string
 }
