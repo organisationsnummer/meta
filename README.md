@@ -8,7 +8,6 @@ Organization meta
 |---|---|---|---|---|
 | [Dart](https://github.com/organisationsnummer/dart) | [![GitHub release (latest by date)](https://img.shields.io/github/v/release/organisationsnummer/dart?style=flat-square)](https://github.com/organisationsnummer/dart) | [1.1](https://github.com/organisationsnummer/meta/#package-specification-v11) | [![GitHub Workflow Status](https://img.shields.io/github/workflow/status/organisationsnummer/dart/test?style=flat-square)](https://github.com/organisationsnummer/dart/actions) | [@frozzare](https://github.com/frozzare)
 | [JavaScript](https://github.com/organisationsnummer/js) | [![GitHub release (latest by date)](https://img.shields.io/github/v/release/organisationsnummer/js?style=flat-square)](https://github.com/organisationsnummer/js) | [1.1](https://github.com/personnummer/meta/#package-specification-v11) | [![GitHub Workflow Status](https://img.shields.io/github/workflow/status/organisationsnummer/js/build?style=flat-square)](https://github.com/personnummer/js/actions) | [@frozzare](https://github.com/frozzare)
-
 ## License Specification
 
 We use the [MIT license](https://opensource.org/licenses/MIT) for all packages and the copyright row should look like this:
@@ -103,3 +102,16 @@ function parse(string input) {
     return new Organisationsnummer(input)
 }
 ```
+
+## Package Specification (v1.1)
+
+This specification adds new features and includes all parts from 1.0.
+
+The package should include `vatNumber` method that should return the vat number for a organization number.
+
+### Pseudo-interface
+
+```js
+interface Organisationsnummer {
+    function vatNumber(): string
+}
