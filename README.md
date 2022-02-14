@@ -77,9 +77,9 @@ The `valid` function can be a function or a static method on the class depending
 
 All methods except for `valid` should throw an exception or return an error as a second return value. Error handling may be different depending on language. The exception/error class should be prefixed with `Organisationsnummer`
 
-The type method can be called `type` or `getType` depending on language.
-
 ### Pseudo-interface
+
+The type method can be called `type` or `getType` depending on language.
 
 ```js
 interface Organisationsnummer {
