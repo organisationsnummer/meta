@@ -1,0 +1,186 @@
+[
+    {
+        "input": "5560160680",
+        "long_format": "556016-0680",
+        "short_format": "5560160680",
+        "valid": true,
+        "type": "Aktiebolag",
+        "vat_number": "SE556016068001"
+    },
+    {
+        "input": "165560160680",
+        "long_format": "556016-0680",
+        "short_format": "5560160680",
+        "valid": true,
+        "type": "Aktiebolag",
+        "vat_number": "SE556016068001"
+    },
+    {
+        "input": "5561034249",
+        "long_format": "556103-4249",
+        "short_format": "5561034249",
+        "valid": true,
+        "type": "Aktiebolag",
+        "vat_number": "SE556103424901"
+    },
+    {
+        "input": "165561034249",
+        "long_format": "556103-4249",
+        "short_format": "5561034249",
+        "valid": true,
+        "type": "Aktiebolag",
+        "vat_number": "SE556103424901"
+    },
+    {
+        "input": "5561034249",
+        "long_format": "556103-4249",
+        "short_format": "5561034249",
+        "valid": true,
+        "type": "Aktiebolag",
+        "vat_number": "SE556103424901"
+    },
+    {
+        "input": "165561034249",
+        "long_format": "556103-4249",
+        "short_format": "5561034249",
+        "valid": true,
+        "type": "Aktiebolag",
+        "vat_number": "SE556103424901"
+    },
+    {
+        "input": "5592440001",
+        "long_format": "559244-0001",
+        "short_format": "5592440001",
+        "valid": true,
+        "type": "Aktiebolag",
+        "vat_number": "SE559244000101"
+    },
+    {
+        "input": "165592440001",
+        "long_format": "559244-0001",
+        "short_format": "5592440001",
+        "valid": true,
+        "type": "Aktiebolag",
+        "vat_number": "SE559244000101"
+    },
+    {
+        "input": "5560160681",
+        "long_format": "556016-0681",
+        "short_format": "5560160681",
+        "valid": false,
+        "type": "Aktiebolag",
+        "vat_number": "SE556016068101"
+    },
+    {
+        "input": "165560160681",
+        "long_format": "556016-0681",
+        "short_format": "5560160681",
+        "valid": false,
+        "type": "Aktiebolag",
+        "vat_number": "SE556016068101"
+    },
+    {
+        "input": "5561034250",
+        "long_format": "556103-4250",
+        "short_format": "5561034250",
+        "valid": false,
+        "type": "Aktiebolag",
+        "vat_number": "SE556103425001"
+    },
+    {
+        "input": "165561034250",
+        "long_format": "556103-4250",
+        "short_format": "5561034250",
+        "valid": false,
+        "type": "Aktiebolag",
+        "vat_number": "SE556103425001"
+    },
+    {
+        "input": "196206109933",
+        "long_format": "620610-9933",
+        "short_format": "6206109933",
+        "valid": true,
+        "type": "Enskild firma",
+        "vat_number": "SE620610993301"
+    },
+    {
+        "input": "194106129895",
+        "long_format": "410612-9895",
+        "short_format": "4106129895",
+        "valid": true,
+        "type": "Enskild firma",
+        "vat_number": "SE410612989501"
+    },
+    {
+        "input": "197310679977",
+        "long_format": "731067-9977",
+        "short_format": "7310679977",
+        "valid": true,
+        "type": "Enskild firma",
+        "vat_number": "SE731067997701"
+    },
+    {
+        "input": "197012719972",
+        "long_format": "701271-9972",
+        "short_format": "7012719972",
+        "valid": true,
+        "type": "Enskild firma",
+        "vat_number": "SE701271997201"
+    },
+    {
+        "input": "198809829933",
+        "long_format": "880982-9933",
+        "short_format": "8809829933",
+        "valid": true,
+        "type": "Enskild firma",
+        "vat_number": "SE880982993301"
+    },
+    {
+        "input": "194508709914",
+        "long_format": "450870-9914",
+        "short_format": "4508709914",
+        "valid": true,
+        "type": "Enskild firma",
+        "vat_number": "SE450870991401"
+    },
+    {
+        "input": "195507819950",
+        "long_format": "550781-9950",
+        "short_format": "5507819950",
+        "valid": true,
+        "type": "Enskild firma",
+        "vat_number": "SE550781995001"
+    },
+    {
+        "input": "200107769937",
+        "long_format": "010776-9937",
+        "short_format": "0107769937",
+        "valid": true,
+        "type": "Enskild firma",
+        "vat_number": "SE010776993701"
+    },
+    {
+        "input": "195510849978",
+        "long_format": "551084-9978",
+        "short_format": "5510849978",
+        "valid": true,
+        "type": "Enskild firma",
+        "vat_number": "SE551084997801"
+    },
+    {
+        "input": "198003839910",
+        "long_format": "800383-9910",
+        "short_format": "8003839910",
+        "valid": true,
+        "type": "Enskild firma",
+        "vat_number": "SE800383991001"
+    },
+    {
+        "input": "194211619996",
+        "long_format": "421161-9996",
+        "short_format": "4211619996",
+        "valid": true,
+        "type": "Enskild firma",
+        "vat_number": "SE421161999601"
+    }
+]
