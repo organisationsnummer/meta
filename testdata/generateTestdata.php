@@ -43,10 +43,16 @@ $list = [];
 function createListObjectItem(array $number)
 {
     $shortFormat = preg_match('/^16/', $number['number']) ? substr($number['number'], 2) : $number['number'];
+    $longFormat = preg_replace('/(\d{4})$/', '-$1', $shortFormat, 1);
+
+    if ($number['type'] === 'Enskild firma') {
+        $longFormat = substr($longFormat, 2);
+        $shortFormat = substr($shortFormat, 2);
+    }
 
     return [
         'input'            => $number['number'],
-        'long_format'      => preg_replace('/(\d{4})$/', '-$1', $shortFormat, 1),
+        'long_format'      => $longFormat,
         'short_format'     => $shortFormat,
         'valid'            => $number['valid'],
         'type'             => $number['type'],

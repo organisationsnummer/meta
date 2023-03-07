@@ -97,10 +97,10 @@
     },
     {
         "input": "121212121212",
-        "long_format": "12121212-1212",
-        "short_format": "121212121212",
+        "long_format": "121212-1212",
+        "short_format": "1212121212",
         "valid": true,
         "type": "Enskild firma",
-        "vat_number": "SE12121212121201"
+        "vat_number": "SE121212121201"
     }
 ]
