@@ -1,6 +1,19 @@
 # meta
 
-Organization meta. Find all implementations on [organisationsnummer.dev](organisationsnummer.dev).
+Organization meta. Find all implementations on [organisationsnummer.dev](https://organisationsnummer.dev).
+
+## Package meta
+
+Every package should have `.meta.yaml` file containing information about the name, maintainer, specification version and which workflow file to show the build badge from. The values of the meta file will be used for the implementations table on [organisationsnummer.dev](https://organisationsnummer.dev)
+
+Example of `.meta.yaml`
+
+```yaml
+name: "JavaScript"
+maintainer: "@frozzare"
+spec: 1.1
+workflow: "nodejs.yml"
+```
 
 ## License Specification
 
@@ -10,7 +23,7 @@ We use the [MIT license](https://opensource.org/licenses/MIT) for all packages a
 Copyright (c) Organisationsnummer and Contributors
 ```
 
-### Input value format
+## Input value format
 
 Dash or plus should be optional.
 
