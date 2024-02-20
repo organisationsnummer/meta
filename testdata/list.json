@@ -96,91 +96,99 @@
         "vat_number": "SE556103425001"
     },
     {
-        "input": "196206109933",
-        "long_format": "620610-9933",
-        "short_format": "6206109933",
+        "input": "191212121212",
+        "long_format": "121212+1212",
+        "short_format": "1212121212",
         "valid": true,
         "type": "Enskild firma",
-        "vat_number": "SE620610993301"
+        "vat_number": "SE121212121201"
     },
     {
-        "input": "194106129895",
-        "long_format": "410612-9895",
-        "short_format": "4106129895",
+        "input": "195102179974",
+        "long_format": "510217-9974",
+        "short_format": "5102179974",
         "valid": true,
         "type": "Enskild firma",
-        "vat_number": "SE410612989501"
+        "vat_number": "SE510217997401"
     },
     {
-        "input": "197310679977",
-        "long_format": "731067-9977",
-        "short_format": "7310679977",
+        "input": "194912109958",
+        "long_format": "491210-9958",
+        "short_format": "4912109958",
         "valid": true,
         "type": "Enskild firma",
-        "vat_number": "SE731067997701"
+        "vat_number": "SE491210995801"
     },
     {
-        "input": "197012719972",
-        "long_format": "701271-9972",
-        "short_format": "7012719972",
+        "input": "197906889972",
+        "long_format": "790688-9972",
+        "short_format": "7906889972",
         "valid": true,
         "type": "Enskild firma",
-        "vat_number": "SE701271997201"
+        "vat_number": "SE790688997201"
     },
     {
-        "input": "198809829933",
-        "long_format": "880982-9933",
-        "short_format": "8809829933",
+        "input": "199502809990",
+        "long_format": "950280-9990",
+        "short_format": "9502809990",
         "valid": true,
         "type": "Enskild firma",
-        "vat_number": "SE880982993301"
+        "vat_number": "SE950280999001"
     },
     {
-        "input": "194508709914",
-        "long_format": "450870-9914",
-        "short_format": "4508709914",
+        "input": "196802709995",
+        "long_format": "680270-9995",
+        "short_format": "6802709995",
         "valid": true,
         "type": "Enskild firma",
-        "vat_number": "SE450870991401"
+        "vat_number": "SE680270999501"
     },
     {
-        "input": "195507819950",
-        "long_format": "550781-9950",
-        "short_format": "5507819950",
+        "input": "200304839996",
+        "long_format": "030483-9996",
+        "short_format": "0304839996",
         "valid": true,
         "type": "Enskild firma",
-        "vat_number": "SE550781995001"
+        "vat_number": "SE030483999601"
     },
     {
-        "input": "200107769937",
-        "long_format": "010776-9937",
-        "short_format": "0107769937",
+        "input": "197904739997",
+        "long_format": "790473-9997",
+        "short_format": "7904739997",
         "valid": true,
         "type": "Enskild firma",
-        "vat_number": "SE010776993701"
+        "vat_number": "SE790473999701"
     },
     {
-        "input": "195510849978",
-        "long_format": "551084-9978",
-        "short_format": "5510849978",
+        "input": "194511809891",
+        "long_format": "451180-9891",
+        "short_format": "4511809891",
         "valid": true,
         "type": "Enskild firma",
-        "vat_number": "SE551084997801"
+        "vat_number": "SE451180989101"
     },
     {
-        "input": "198003839910",
-        "long_format": "800383-9910",
-        "short_format": "8003839910",
+        "input": "198601769915",
+        "long_format": "860176-9915",
+        "short_format": "8601769915",
         "valid": true,
         "type": "Enskild firma",
-        "vat_number": "SE800383991001"
+        "vat_number": "SE860176991501"
     },
     {
-        "input": "194211619996",
-        "long_format": "421161-9996",
-        "short_format": "4211619996",
+        "input": "196102709976",
+        "long_format": "610270-9976",
+        "short_format": "6102709976",
         "valid": true,
         "type": "Enskild firma",
-        "vat_number": "SE421161999601"
+        "vat_number": "SE610270997601"
+    },
+    {
+        "input": "195212779895",
+        "long_format": "521277-9895",
+        "short_format": "5212779895",
+        "valid": true,
+        "type": "Enskild firma",
+        "vat_number": "SE521277989501"
     }
 ]

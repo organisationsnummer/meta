@@ -92,7 +92,7 @@ function luhn(string $str): int
 function createListObjectItem(array $number)
 {
     $shortFormat = preg_match('/^16/', $number['number']) ? substr($number['number'], 2) : $number['number'];
-    $longFormat = preg_replace('/(\d{4})$/', '-$1', $shortFormat, 1);
+    $longFormat = preg_replace('/(\d{4})$/', ($number['sep'] ?? '-') . '$1', $shortFormat, 1);
 
     if ($number['type'] === 'Enskild firma') {
         $longFormat = substr($longFormat, 2);
@@ -109,9 +109,14 @@ function createListObjectItem(array $number)
     ];
 }
 
-for ($i = 0; $i < 11; $i++) {
-    $number =
+$numbers[] = [
+    'number' => '191212121212',
+    'type'   => 'Enskild firma',
+    'valid'  => true,
+    'sep'    => '+'
+];
 
+for ($i = 0; $i < 11; $i++) {
     $number = randomSSN(0, $i > 1, true, boolval($i % 2));
 
     $luhn = luhn(substr($number, 2));
