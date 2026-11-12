@@ -10,7 +10,7 @@ Example of `.meta.yaml`
 
 ```yaml
 name: "JavaScript"
-maintainer: "@frozzare"
+maintainer: "@johannestegner"
 spec: 1.1
 workflow: "nodejs.yml"
 ```
