@@ -124,6 +124,7 @@ The package should include `vatNumber` method that should return the vat number 
 interface Organisationsnummer {
     function vatNumber(): string
 }
+```
 
 ## In memoriam
 
