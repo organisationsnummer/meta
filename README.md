@@ -124,3 +124,8 @@ The package should include `vatNumber` method that should return the vat number 
 interface Organisationsnummer {
     function vatNumber(): string
 }
+```
+
+## In memoriam
+
+Fredrik "Frozzare" Forsmo (1991-2026) was the initiator, co-founder and a core contributor of the organisationsnummer project. This repository carries his work. He is missed.
